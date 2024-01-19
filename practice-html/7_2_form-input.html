@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Input</title>
+</head>
+<body>
+  
+  <form action="">
+    <fieldset>
+      <legend>Input Tag</legend>
+      <ul>
+        <li>
+          <label for="text">Text</label>
+          <input type="text" id="text" value="안녕하십니까" readonly>
+        </li>
+        <li>
+          <label for="text">Text</label>
+          <input type="text" id="text" value="저는 김아리입니다" disabled>
+        </li>
+        <li>
+          <label for="email">이메일</label>
+          <input type="email" id="email" required autofocus>
+        </li>
+        <li>
+          <label for="tel">전화번호</label>
+          <input type="tel" id="tel" required placeholder="-없이 입력해주세요">
+        </li>
+        <li>
+          <label for="url">URL</label>
+          <input type="url" id="url" placeholder="url을 입력해주세요">
+        </li>
+        <li>
+          <label for="number">number</label>
+          <input type="number" id="number" min="0" max="10">
+        </li>
+        <li>
+          <label for="range">range</label>
+          <input type="range" id="range">
+        </li>
+      </ul>
+    </fieldset>
+    <input type="submit" value="제출하기">
+    <fieldset>
+      <legend>날짜 관련</legend>
+      <ul>
+        <li>
+          <label for="date">date</label>
+          <input type="date" id="date" min="2023-12-01" max="2024-12-31">
+        </li>
+        <li>
+          <label for="month"></label>
+          <input type="month" id="month">
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>시간 관련</legend>
+      <ul>
+        <li>
+          <label for="time"></label>
+          <input type="time" id="time">
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>그 외</legend>
+      <ul>
+        <li>
+          <input type="file" multiple>
+        </li>
+      </ul>
+    </fieldset>
+  </form>
+
+</body>
+</html>

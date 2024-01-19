@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model</title>
+  <style>
+    /* Content, Padding, Margin, Border */
+    div.content {
+      background-color: rgb(184, 184, 184);
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      border: 10px solid green;
+      margin: 40px;
+    }
+    span {
+      border: 1px solid red;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+    }
+    div.padding {
+      border: 1px solid black;
+      padding: 20px 10px;
+    }
+    div.margin {
+      border: 1px solid rgb(235, 73, 100);
+      margin: 20px;
+    }
+    .shape {
+      border: 1px solid red;
+      width: 100px;
+      height: 100px;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content"></div>
+  <span>Hello CSS</span>
+  <div class="padding">
+    그룹이 탄생하게 된 계기가 다소 실험적이며 특이하다. JYP엔터테인먼트에서 새 보이그룹을 준비하기 시작할 무렵, 
+    당시 7년차 연습생이던 방찬에게 박진영은 한 가지 제안을 하는데, 바로 방찬이 직접 팀을 꾸려서 연습하고 회사 입장에서 준비가 되었다 판단이 되면 데뷔시켜 주겠다는 것이다. 
+    다시 말해 스키즈는 연습생이 직접 멤버 구성부터 프로듀싱까지 전담하고 회사는 검토만 해주는 문자 그대로의 자체 제작/자생돌이라고 할 수 있다
+  </div>
+  <div class="margin">
+    그룹이 탄생하게 된 계기가 다소 실험적이며 특이하다. JYP엔터테인먼트에서 새 보이그룹을 준비하기 시작할 무렵, 
+    당시 7년차 연습생이던 방찬에게 박진영은 한 가지 제안을 하는데, 바로 방찬이 직접 팀을 꾸려서 연습하고 회사 입장에서 준비가 되었다 판단이 되면 데뷔시켜 주겠다는 것이다. 
+    다시 말해 스키즈는 연습생이 직접 멤버 구성부터 프로듀싱까지 전담하고 회사는 검토만 해주는 문자 그대로의 자체 제작/자생돌이라고 할 수 있다
+  </div>
+  <div class="shape" style="margin-bottom: 40px;"></div>
+  <div class="shape"></div>
+</body>
+</html>
